@@ -2,7 +2,7 @@
 # This is an example mapper
 
 f = open("purchases.txt","r")  # open file, read-only
-o = open("out01.txt", "w") # open file, write
+o = open("o1.txt", "w") # open file, write
 for line in f:  
     dataList = line.strip().split("    ") 
     print (dataList )
